@@ -11,9 +11,6 @@ const useLocation = () => {
     );
   }, []);
 
-  console.log(lat);
-  console.log(errorMessage);
-
   return [lat, errorMessage];
 };
 
